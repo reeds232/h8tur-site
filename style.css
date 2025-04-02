@@ -64,22 +64,6 @@ h1 {
     transition: font-size 0.35s, font-weight 0.35s, margin-bottom 0.35s, margin-top 0.35s, color 0.35s;
 }
 
-h1:hover {
-    font-family: 'Helvetica', sans-serif;
-    font-size: 4.75em;
-    font-weight: bold;
-    margin-bottom: 5px;
-    margin-top: 40px;
-    color: transparent;
-    background: linear-gradient(to right,
-            #0a5c36, #0f5132, #14452F, #18392b, #1d2e28, #18392b, #14452F, #0f5132, #0a5c36);
-    background-size: 400% 400%;
-    animation: glowing 3s infinite ease-in-out;
-    text-shadow: 0 0 25px rgb(0, 0, 0, 0);
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
 header a {
     text-decoration: none;
 }
